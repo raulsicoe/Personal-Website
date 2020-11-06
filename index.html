@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="Assets/header.css">
+    <link rel="stylesheet" type="text/css" href="Assets/footer.css">
+
     <title>Pagina Principala</title>
+
+    <script src="https://kit.fontawesome.com/5eb107b7da.js" crossorigin="anonymous"></script>
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#header").load("Assets/header.html"); 
+        $("#footer").load("Assets/footer.html"); 
+        });
+    </script> 
+
+    <script src="consoleEffect.js"></script>
+
 </head>
+
 <body>
-    Asta e pagina principala 
+    <div id="header"></div>
+    <div class="pozacumine"> <img src="Resources/eu.png" width="950px" height="1500px"></div>
+    <div class="text-mainpagae">
+        <b>
+        <pre>           Buna, sunt <p id="nume">Raul</p>. 
+Student in anul II la informatica, 
+pasionat de: </pre>
+        <div class='console-container'>
+            <span id='text'></span>
+            <div class='console-underscore' id='console' >&#95;
+                <script>consoleText(['Coding.', 'Cardistry', 'Gaming.'], 'text',['tomato','rebeccapurple','lightblue']);</script>
+           </div>
+        </div>
+        </b>
+    </div>
+    <div id="footer"></div>
+    
 </body>
 </html>
