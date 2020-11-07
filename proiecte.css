@@ -1,0 +1,145 @@
+html, body 
+{
+    background-color: #3AAFA9;
+    height: 100%;
+    margin: 0;
+}
+
+
+
+
+section{
+  align-items: center;
+  font-family: Roboto;
+  width: 100%;
+  text-align: center;
+  color: #26272b;
+}
+
+h1{
+  font-size: 40pt;
+  font-weight: 500;
+  color: #faed26;
+}
+
+.container-projects {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+.container-item
+{
+  display:flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin: 10px 1%;
+  border: 2px solid white;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+  
+  min-width: 500px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  background-color: white;
+  align-items: center;
+}
+
+.item:hover{
+  cursor: pointer;
+}
+
+.item *{
+  transition: all 0.35s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+  height: 410px;
+  width: 520px;
+}
+
+.item:hover img {
+  opacity: 0;
+}
+
+.text{
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  top: -100px;
+  left: 10%;
+  color: #3AAFA9;
+  font-size: 18px;
+}
+
+.text h3{
+  color: black;
+  font-size: 27px;
+}
+
+.item:hover .text{
+  top: 20%;
+}
+
+.item:hover .button{
+  bottom: 20%;
+}
+
+.item .button{
+  position: absolute;
+  bottom: -100px;
+  left: 25%;
+  width: 50%;
+  border: 3px solid #3AAFA9;
+  padding: 15px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  color: #26272b;
+}
+
+.button:hover{
+  background-color: #3AAFA9;
+  color: #F5F5F5;
+}
+
+.description
+{ 
+  height: 410px;
+  width: 520px;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.description ul li
+{
+  padding-bottom: 10px;
+}
+
+.description h2
+{
+  text-align: center;
+  font-size: 25px;
+  color: #3AAFA9;
+}
+
+.description hr
+{
+  width: 90%;
+ 
+}
+
+
