@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
 html, body 
 {
     background-color: #3AAFA9;
@@ -11,19 +13,26 @@ html, body
     bottom: 40px;
     right: -50px;
     width: auto;
+    z-index: 0;
+}
+
+#poza
+{
+    opacity: 0.8;
 }
 
 .text-mainpagae
 {
     position: absolute;
-    top:210px;
-    left: 60px;
+    top:20px;
+    left: 260px;
     color: #FFFEFF;
-    font-size:60px;
+    font-size:80px;
     font-weight: 900px;
+    
 }
 
-@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
 
 .hidden {
     opacity:0;
@@ -31,15 +40,15 @@ html, body
   .console-container {
    
     font-family:Khula;
-    font-size:60px;
+    font-size:80px;
     text-align:center;
     height:200px;
     width:600px;
     display:flex;
     position:absolute;
     color:white;
-    top:320px;
-    left:400px;
+    top:425px;
+    left:560px;
     margin:auto;
   }
   .console-underscore {
@@ -52,5 +61,42 @@ html, body
   #nume
   {
       display:inline-block;
-      color: #26272b;
+      color: #faed26;
   }
+
+
+  .container-button {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top:55%;
+    left:27%;
+    margin-left: -65px;
+    margin-top: -20px;
+    width: 1000px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+  }
+  button {
+    outline:none;
+    height: 140px;
+    text-align: center;
+    width: 380px;
+    border-radius:35px;
+    background: #faed26;
+    border: 3px solid #faed26;
+    color: #26272b;
+    letter-spacing:1px;
+    text-shadow:0;
+    font-size:30px;
+    font-weight:bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-right: 100px;
+  }
+  button:hover {
+      background: #fffeff;
+    }
+
+
+  
