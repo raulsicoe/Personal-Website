@@ -1,7 +1,7 @@
 html, body 
 {
     background-color: #3AAFA9;
-    height: 200%;
+    height: 146%;
     margin: 0;
 }
 
@@ -32,13 +32,13 @@ html, body
 
 .title-left
 {
-  height: 300px;
   width: 20%;
   float: left;
   font-size: 50px;
   position: relative;
-  top:100px;
-  left: 30px;
+  color: #faed26;
+  top:120px;
+  left: 320px;
 }
 
 #container-table{
@@ -91,14 +91,13 @@ background:#BDC3C7;
 
 .content-experience
 {
-  width:60%;
+  width:95%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 1450px;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 900px;
   position: absolute;
-  top: 800px;
-  left: 100px;
+  top: 900px;
   text-align: center;
 }
 
@@ -107,7 +106,7 @@ background:#BDC3C7;
   display:flex;
   background: #3AAFA9;
   height: 700px;
-  width: 90%;
+  width: 48%;
   text-align: center;
 }
 
@@ -137,6 +136,7 @@ h5
   font-size: 50px;
   margin-top: 20px;
   margin-bottom: 30px;
+  color: #3AAFA9;
 }
 
 .content-exp
@@ -177,20 +177,21 @@ h5
   list-style-image: none;
 }
 
-.titles-experience
+#experience
 {
   width: 35%;
   height: 1450px;
-  position: relative;
-  left: 60%;
+  position: absolute;
+  left: 40%;
   top: 778px;
   font-size: 50px;
+  color: #faed26;
 }
 
 #hr2
 {
   position: absolute;
-  top: 2290px;
+  top: 1620px;
   left:5%;
   width: 90%;
 }
@@ -198,15 +199,16 @@ h5
 #hobby
 {
   position: absolute;
-  top: 2350px;
+  top: 1650px;
   font-size: 50px;
   left: 48%;
+  color: #faed26;
 }
 
 .container-hobby
 {
   position: absolute;
-  top: 2450px;
+  top: 1700px;
   left: 5%;
   width: 90%;
   height: 700px;
@@ -226,7 +228,7 @@ h5
   
   justify-content: space-between;
   position: absolute;
-  top: 2450px;
+  top: 1750px;
   left: 5%;
   width: 90%;
   height: 700px;
@@ -295,5 +297,13 @@ h5
   font-size: 20px;
   padding-top: 10px;
   line-height: 27px;
+}
+
+.change-table-position
+{
+  position: absolute;
+  top: 180px;
+  left: -700px;
+  width: 70%;
 }
 
