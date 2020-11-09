@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="Assets/header.css">
     <link rel="stylesheet" type="text/css" href="Assets/footer.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
     <title>Contact</title>
 
     <script src="https://kit.fontawesome.com/5eb107b7da.js" crossorigin="anonymous"></script>
@@ -24,7 +25,58 @@
 
 <body>
     <div id="header"></div>
-    Contact
+    <div class="container-form">
+        <div style="text-align:center">
+          <h2>Contactează-mă</h2>
+          <p>Trimite-mi un mesaj, ofertă, idee de proiect, etc.</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="Resources/ocean.jpg" style="width:100%" height="100%">
+          </div>
+          <div class="column">
+            <form action="#">
+              <label for="nume">Nume</label>
+              <input type="text" id="nume" name="nume" placeholder="Numele de familie...">
+
+              <label for="prenume">Prenume</label>
+              <input type="text" id="prenume" name="prenume" placeholder="Prenumele..">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Adresa de email..">
+
+              <label for="cmp">Companie</label>
+              <input type="text" id="cmp" name="cmp" placeholder="Companie..">
+
+              <label for="sub">Subiect</label>
+              <input type="text" id="sub" name="sub" placeholder="Subiect..">
+
+              <label for="jud">Județ</label>
+              <select id="jud" name="jud">
+                <option value="sibiu">Sibiu</option>
+                <option value="alba">Alba</option>
+                <option value="cluj">Cluj</option>
+              </select>
+
+              <span class="radio-buttons">
+              <input type="radio" id="oferta" name="tip" value="oferta">
+              <label for="oferta">Ofertă</label><br>
+              <input type="radio" id="idee" name="tip" value="idee">
+              <label for="idee">Idee</label><br>
+              <input type="radio" id="mesaj" name="tip" value="mesaj">
+              <label for="mesaj">Mesaj</label>
+              <input type="radio" id="propunere" name="tip" value="propunere">
+              <label for="propunere">Propunere</label>
+              </span>
+
+              <label for="descriere">Descriere</label>
+              <textarea id="descriere" name="descriere" placeholder="Descriere.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+        
     <div id="footer"></div>
 </body>
 </html>
