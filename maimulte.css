@@ -1,0 +1,299 @@
+html, body 
+{
+    background-color: #3AAFA9;
+    height: 200%;
+    margin: 0;
+}
+
+#header
+{
+  z-index: 3;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: Black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.title-left
+{
+  height: 300px;
+  width: 20%;
+  float: left;
+  font-size: 50px;
+  position: relative;
+  top:100px;
+  left: 30px;
+}
+
+#container-table{
+  position: absolute;
+  top:100px;
+  right: 5%;
+  width:50%;  
+  margin:auto;
+  background:white;
+}
+
+table{
+  border-collapse:collapse;
+  width:100%;
+ 
+}
+
+table.normal{
+    border:2px solid #1ABC9C;
+}
+
+thead{
+  background:#faed26;
+  color:black;
+}
+
+th,td{
+  text-align:center;
+  padding:5px 0;
+  height: 50px;
+  font-size: 20px;
+}
+
+tbody tr:nth-child(even){
+  background:#ECF0F1;
+}
+
+tbody tr:hover{
+background:#BDC3C7;
+  color:#FFFFFF;
+}
+
+#hr1
+{
+  position: absolute;
+  top: 720px;
+  left:5%;
+  width: 90%;
+}
+
+.content-experience
+{
+  width:60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1450px;
+  position: absolute;
+  top: 800px;
+  left: 100px;
+  text-align: center;
+}
+
+.company
+{
+  display:flex;
+  background: #3AAFA9;
+  height: 700px;
+  width: 90%;
+  text-align: center;
+}
+
+
+
+.company-image-area1
+{
+  background-image: url(Resources/continental.jpg);
+  background-position: center;
+  width: 40%;
+}
+
+.company-image-area2
+{
+  background-image: url(Resources/bricolaj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+}
+
+h5
+{
+  align-content: center;
+  text-align: center;
+  position: inherit;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.content-exp
+{
+  background: white;
+  width: 60%;
+  position: relative;
+  left: 5px;
+  padding-top: -10px;
+  font-size: 25px;
+  padding-right: 30px;
+  padding-left: 20px;
+  text-align: left;
+  line-height: 40px;
+}
+
+.content-exp1
+{
+  background: white;
+  width: 60%;
+  position: relative;
+  left: 5px;
+  padding-top: -10px;
+  font-size: 25px;
+  padding-right: 30px;
+  padding-left: 20px;
+  text-align: left;
+  line-height: 40px;
+}
+
+.content-exp ul li ul li
+{
+  list-style-image: url(Resources/logo.jpg);
+}
+
+.content-exp ul li 
+{
+  list-style-image: none;
+}
+
+.titles-experience
+{
+  width: 35%;
+  height: 1450px;
+  position: relative;
+  left: 60%;
+  top: 778px;
+  font-size: 50px;
+}
+
+#hr2
+{
+  position: absolute;
+  top: 2290px;
+  left:5%;
+  width: 90%;
+}
+
+#hobby
+{
+  position: absolute;
+  top: 2350px;
+  font-size: 50px;
+  left: 48%;
+}
+
+.container-hobby
+{
+  position: absolute;
+  top: 2450px;
+  left: 5%;
+  width: 90%;
+  height: 700px;
+  background: white;
+}
+
+.container-hobby h2
+{
+  color: #3AAFA9;
+  text-align: center;
+}
+
+.content-hobby
+{
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-between;
+  position: absolute;
+  top: 2450px;
+  left: 5%;
+  width: 90%;
+  height: 700px;
+  background: white;
+}
+
+.content-hobby ol
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.content-hobby ol li
+{
+  padding-left: 60px;
+}
+
+.item-hobby
+{
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 800px;
+}
+
+.item-hobby p
+{
+  text-align: center;
+  color: #3AAFA9;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hobby-image-area1
+{
+  background-image: url("Resources/card.jpg");
+  width: 650px;
+  height: 400px;
+}
+
+.hobby-image-area2
+{
+  background-image: url("Resources/gaming.jpg");
+  width: 650px;
+  height: 400px;
+}
+
+.hobby-image-area3
+{
+  background-image: url("Resources/music.png");
+  background-position: center;
+  width: 650px;
+  height: 400px;
+}
+
+
+.content-hobby-text
+{
+  width: 650px;
+  height: 400px;
+  background: white;
+  border: 3px solid #3AAFA9;
+  font-size: 20px;
+  padding-top: 10px;
+  line-height: 27px;
+}
+
